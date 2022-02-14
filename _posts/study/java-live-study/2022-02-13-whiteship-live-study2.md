@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법"
-accent_color: '#ccc'
+image: 
+    path: /assets/img/live-study/live-study2-cover.png
+accent_color: '#00B8A9'
 description: >
     [dev-ujin✨](https://github.com/dev-ujin)과 함께하는 [live study📝](https://github.com/whiteship/live-study) 2주차
 categories:

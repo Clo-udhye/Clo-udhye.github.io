@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기"
-accent_color: '#ccc'
+image: 
+    path: /assets/img/live-study/live-study1-cover.png
+accent_color: '#344CB7'
 description: >
     [dev-ujin✨](https://github.com/dev-ujin)과 함께하는 [live study📝](https://github.com/whiteship/live-study) 1주차
 categories:
