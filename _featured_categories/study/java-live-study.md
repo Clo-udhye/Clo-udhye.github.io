@@ -4,7 +4,7 @@ category: Study
 bigtitle: Java-Live-Study
 slug: java-live-study
 description: >
-    자바 라이브 스터디
+    자바 기초 스터디
 
 related_post:
     -

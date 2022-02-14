@@ -12,6 +12,6 @@ description: >
 
 ## 카테고리
 
-- [Java-Live-Study]{:.heading.flip-title} --- 자바 라이브 스터디
+- [Java Live Study]{:.heading.flip-title} --- 자바 기초 스터디
 
-[Java-Live-Study]: /java-live-study/
+[Java Live Study]: /java-live-study/
