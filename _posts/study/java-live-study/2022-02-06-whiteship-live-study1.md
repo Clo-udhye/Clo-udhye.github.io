@@ -1,19 +1,14 @@
 ---
 layout: post
 title: "자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기"
-image: 
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
-accent_image:
-    background: url('/assets/img/blog/jeremy-bishop@0,5x.jpg') center/cover
-    overlay: false
-accent_color: '#ccc'    
-theme_color: '#ccc'
+accent_color: '#ccc'
 description: >
     [dev-ujin✨](https://github.com/dev-ujin)과 함께하는 [live study📝](https://github.com/whiteship/live-study) 1주차
-invert_sidebar: true
 categories:
     - study
     - java-live-study
+related_posts:    
+    - /study/java-live-study/2022-02-11-whiteship-live-study2/
 ---
 
 ##### JVM이란 무엇인가
