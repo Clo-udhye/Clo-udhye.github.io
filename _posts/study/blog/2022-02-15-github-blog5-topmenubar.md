@@ -1,18 +1,79 @@
 ---
 layout: post
-title: "검색기능 추가"
+title: "탑메뉴바와 검색기능 추가"
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'
 description: >
-    깃허브 블로그 만들기: 검색기능 추가
+    깃허브 블로그 만들기: 탑메뉴바와 검색기능 추가
 categories:
     - study
     - blog
 related_posts:    
     -    
 ---
-# [gitBlog] 검색기능 추가
+# [gitBlog] 탑메뉴바와 검색기능 추가
+
+## 탑메뉴바 추가
+#### 1. _includes > body 에 menu.html 추가
+
+```html
+<!--상단메뉴바-->
+<div id="_navbar" class="navbar fixed-top">
+    <div class="content">
+        <span class="sr-only">{{ site.data.strings.jump_to | default:"Jump to" }}{{ site.data.strings.colon | default:":" }}</span>
+        <div class="nav-btn-bar">
+            <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+                <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}</span>
+                <span class="icon-menu"></span>
+            </a>
+            <!--상단메뉴 카테고리들 -->
+            <div class="top-menu">
+                {% if site.menu %}
+                {% for node in site.menu %}
+                {% assign url = node.url | default: node.href %}
+                <a {% if forloop.first %}id="_drawer--opened" {% endif %} href="{% include_cached smart-url url=url %}" class="nav-btn top-menu {% if node.external %}external{% endif %}" {% if node.rel %}rel="{{ node.rel }}" {% endif %}>
+                    {{ node.name | default:node.title }}
+                </a>
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <!--검색 tipuesearch -->
+
+        </div>
+    </div>
+</div>
+<hr class="sr-only" hidden />
+```
+
+#### 2. _sass > my-style.scss 아래에 다음코드를 추가
+
+```scss
+// for top-menu
+.top-menu-wrapper{
+  display: inline-block;
+}
+.top-menu{
+  overflow-x: auto; // overflowx 속성은 x 축, 즉 왼쪽과 오른쪽의 내용이 더 길 때(가로),
+  overflow-y: hidden; // overflowy 속성은 y 축, 즉 위와 아래의 내용이 더 길때 (세로) 어떻게 보일지 선택하는 속성
+  white-space: nowrap; // whitespace 는 스페이스와 탭, 줄바꿈, 자동줄바꿈을 어떻게 처리할지 정하는 속성, nowrap :병합
+}
+// for top-menu
+.top-menu.nav-btn{
+  border: none;
+  display: inline-flex; // Flex 는 요소의 크기가 불분명하거나 동적인 경우에도, 각 요소를 정렬할 수 있는 효율적인 방법을 제공, Inline 특성의 Flex Container 를 정의
+  width: 6rem; // inlineflex : Inline(Inline Block) 요소와 같은 성향(수평 쌓임)
+  margin-left: -1px;
+}
+```
+
+#### 3. 탑메뉴바 완성
+![탑메뉴바](/assets/img/blog/topmenubar1.png){:width="70%" height="70%"}
+
+<hr>
+
+## 검색기능 추가
 블로그내에 검색기능을 추가하여 원하는 게시물을 빠르게 찾아보자.
 #### 1. 다음 [Github 레파지토리](https://github.com/jekylltools/jekyll-tipue-search)에서 zip 파일을 다운로드 받아 압축을 푼다.
 

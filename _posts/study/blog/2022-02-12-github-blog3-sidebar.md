@@ -136,5 +136,51 @@ categories:
 ![메뉴 변경](/assets/img/blog/sidebar9.png){:width="70%" height="70%"}   
 서브메뉴 완성!
 
+## 사이드바 커스텀 하기   
+_includes > body 폴더와 sidebar-sticky.html 파일을 만들어 다음을 붙여넣는다.
+
+```html
+<div class="sidebar-sticky">
+    <div class="sidebar-about" style="margin-bottom: 10px;">
+
+        <!--블로그타이틀-->
+        <div class="sidebartitle" style="margin-bottom: 30px;">
+            <a class="sidebar-title" href="{{ '/' | relative_url }}">
+                <h2 class="h1">{{ site.short_title | default:site.title }}</h2>
+            </a>
+        </div>
+        <!--블로그프로필 이미지-->
+        {% if site.logo %}
+        <a class="no-hover" style="margin-bottom: 50px;" href="{{ '/' | relative_url }}" tabindex="-1">
+            <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="130" height="130" loading="lazy" />
+        </a>
+        {% endif %}
+        <!--블로그 간단한 설명-->
+        {% assign text = site.tagline | default:site.description %}
+        {% if text %}
+        <p class="{% if text.size > 100 %}fine{% endif %}">
+            {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
+        </p>
+
+        {% endif %}
+    </div>
+    <!--블로그 조회수-->
+    <nav class="sidebar-nav heading" role="navigation">
+        {% include body/nav.html %}
+    </nav>
+
+    <!--소셜바-->
+    {% assign author = site.data.authors.first[1] | default:site.author %}
+    <div class="sidebar-social">
+        {% include components/social.html author=author %}
+    </div>
+
+</div>
+```
+
+각 부분의 순서나 위치를 변경해서 커스텀 할 수 있다.
+
+
+
 Refernce
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)
