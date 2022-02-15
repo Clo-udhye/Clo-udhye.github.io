@@ -10,7 +10,8 @@ categories:
     - study
     - java-live-study
 related_posts:    
-    - /study/java-live-study/2022-02-06-whiteship-live-study1/    
+    - /study/java-live-study/2022-02-06-whiteship-live-study1/ 
+    - /study/java-live-study/2022-02-13-whiteship-live-study3/   
 ---
 ### 자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법
 
@@ -478,7 +479,7 @@ char charData = (char)byteValue;// 강제 타입 변환
 큰 크기의 타입은 작은 크기의 타입으로 자동 타입 변환을 할 수 없다. 강제적으로 큰 데이터 타입을 작은 데이터 타입으로 조개어서 저장하는 것을 **강제 타입 변환(캐스팅:Casting)** 이라고 한다. 강제 타입 변환은 캐스팅 연산자()를 사용하는데, 괄호 안에 들어가는 타입은 쪼개는 단위이다.
 ```java
 int intValue = 103029110;
-byte byteValue = (int)intValue; // 강제 타입 변환(캐스팅)
+byte byteValue = (byte)intValue; // 강제 타입 변환(캐스팅)
 ```
 ![강제 타입 변환](/assets/img/live-study/casting.png){: width="80%" height="80%"}   
 4byte의 int 타입을 강제적으로 (byte)연산자를 사용해서 1byte씩 쪼개고, 끝에 있는 1byte만 저장하므로 원래 int값은 보존되지 않는다. 하지만 int값이 끝 1byte만으로만 표현이 가능하다면 byte타입으로 변환해도 같은 값이 유지될 수 있다.
@@ -596,7 +597,7 @@ public class OperationsPromotionExample{
 ### 참조타입
 자바의 데이터 타입에는 크게 기본타입 (원시타입:primitive type)과 참조 타입(reference type)으로 분류된다. 
 ![데이터타입 분류](/assets/img/live-study/dataType.png){: width="60%" height="60%"}   
-참조타입이란 객체(Object)의 번지를 참조하는 타입으러 배열, 열거, 클래스, 인터페이스타입을 말한다. 기본타입과 참조타입으로 선언된 변수의 차이점은 저장되는 값이 무엇이냐이다. 기본타입을 이용해서 선언된 변수는 실제 값을 변수안에 저장하지만, **참조타입을 이용해서 선언된 변수는 메모리의 번지를 값으로 갖는다.** 번지를 통해 객체를 참조한다는 뜻에서 참조타입이라고 부른다.
+참조타입이란 객체(Object)의 번지를 참조하는 타입으로 배열, 열거, 클래스, 인터페이스타입을 말한다. 기본타입과 참조타입으로 선언된 변수의 차이점은 저장되는 값이 무엇이냐이다. 기본타입을 이용해서 선언된 변수는 실제 값을 변수안에 저장하지만, **참조타입을 이용해서 선언된 변수는 메모리의 번지를 값으로 갖는다.** 번지를 통해 객체를 참조한다는 뜻에서 참조타입이라고 부른다.
 ```java
 /*기본 타입 변수*/
 int age = 25;

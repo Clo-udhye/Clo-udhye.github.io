@@ -5,13 +5,14 @@ image:
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'
 description: >
-    깃블로그 만들기: 검색기능 추가
+    깃허브 블로그 만들기: 검색기능 추가
 categories:
     - study
     - blog
 related_posts:    
     -    
 ---
+# [gitBlog] 검색기능 추가
 블로그내에 검색기능을 추가하여 원하는 게시물을 빠르게 찾아보자.
 #### 1. 다음 [Github 레파지토리](https://github.com/jekylltools/jekyll-tipue-search)에서 zip 파일을 다운로드 받아 압축을 푼다.
 

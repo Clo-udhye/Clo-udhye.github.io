@@ -10,7 +10,9 @@ categories:
     - study
     - java-live-study
 related_posts:    
-    - /study/java-live-study/2022-02-11-whiteship-live-study2/
+    - /study/java-live-study/2022-02-13-whiteship-live-study2/
+    - /study/java-live-study/2022-02-13-whiteship-live-study3/
+
 ---
 
 ##### JVM이란 무엇인가
