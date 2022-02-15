@@ -35,7 +35,7 @@ assets폴더에 icons폴더를 만들고 `favicon.ico`파일을 옮겨주자.
 <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-icon-180x180.png' | relative_url }}">
 ```
 
-- favicont 적용 완료~~   
+- favicon 적용 완료~~   
 ![favicon](/assets/img/blog/favicon4.png){:width="70%" height="70%"}   
 
 Refernce
