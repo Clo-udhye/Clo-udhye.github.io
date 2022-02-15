@@ -55,6 +55,8 @@ menu:
     submenu:
       - title:         Java-Live-Study
       - url:           /java-live-study/
+      - title:         Blog
+      - url:           /blog/     
   - title:             Example
     url:               /example/
   
