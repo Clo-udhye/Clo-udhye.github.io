@@ -38,13 +38,13 @@ Jekyll 테마를 통해 블로그 테마를 다운로드하고 이미지와 색,
 마음에 드는 테마를 찾았다면, 해당 테마 페이지에 있는 다운로드 또는 github clone 으로 파일들을 다운 받자!
 
 ### Hydejack 테마로 시작하기
-[http://themes.jekyllrc.org/hydejack/](http://themes.jekyllrc.org/hydejack/)에서 테마를 다운받고 원하는 위치[ 압축을 풀자.
+[http://themes.jekyllrc.org/hydejack/](http://themes.jekyllrc.org/hydejack/)에서 테마를 다운받고 원하는 위치에 압축을 풀자.
 ![Hidejack Theme설치](/assets/img/blog/setting1-1.png){:width="80%" height="80%"}
 ![Hidejack Theme설치](/assets/img/blog/setting1-2.png){:width="80%" height="80%"}
 ![Hidejack Theme설치](/assets/img/blog/setting1-3.png){:width="80%" height="50%"}
 
 ### Ruby와 Jekyll 설치하기
-다운받은 파일을 수정하기 전에 Jekyll을 설치해야한다. 우리가 다운 받은 파일은 Jekyll기반으로 개발이 되어있기 때문에 Jekyll을 설치하지 않을 경우 우리가 원하는 방식으로 테마를 수정할 수가 없다. Jekyll은 정적 컴파일러이다.
+다운받은 파일을 수정하기 전에 Jekyll을 설치해야한다. 우리가 다운 받은 파일은 Jekyll기반으로 개발이 되어있기 때문에 Jekyll을 설치하지 않을 경우 우리가 원하는 방식으로 테마를 수정할 수가 없다.
 
 Text로 우리가 작성한 Markdown, _config.yml등의 파일들은 Jekyll을 통해서 _site폴더내의 산출물로 변환되고 해당 산출물이 Github를 통해 WEB에서 실행되는 형태라고 할 수 있다.
 
