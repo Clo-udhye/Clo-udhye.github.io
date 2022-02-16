@@ -14,7 +14,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog]post 커스텀
+# [gitBlog] post 커스텀
 
 ## post를 커스텀해보자
 #### _includes > conponents 디렉토리 생성후 post.html 추가

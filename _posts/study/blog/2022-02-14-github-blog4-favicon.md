@@ -16,7 +16,7 @@ related_posts:
 ## favicon 
 Favicon이란 Favorite과 Icon의 합성어로 웹 브라우저의 즐겨찾기나 주소창에 뜨는 웹사이트 아이콘
 
-- 다음 웹사이트에 접속해서 사진을 favicon으로 만들 사진을 선택하고 만들기
+- 다음 웹사이트에 접속해서 사진을 favicon으로 만들 사진을 선택하고 만들기   
 [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 ![favicon-generator](/assets/img/blog/favicon1.png){:width="70%" height="70%"}   
 
