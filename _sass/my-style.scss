@@ -44,3 +44,82 @@
   width: 10rem !important;
   height: 10rem !important;
 }
+
+/*링크 css*/
+.markdown-body > p > a{
+  font-weight: bold !important;
+}
+
+.markdown-body{
+  kbd {
+    font-size: 15px;
+    font-family: monospace;
+    color: #555;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    border-bottom-color: #bbb;
+    padding: 3px 5px;
+  }
+
+  mark {
+    padding: 3px 5px;
+    background-color: #fff9c4;
+  }
+
+  under {
+    text-decoration: underline;
+    text-decoration-color: #eea4a1;
+    text-underline-position: under;
+    padding-bottom: 2px;
+  }
+
+  success {
+    margin: 2em 0 !important;
+    padding: 1em;
+    display: block;
+    color: #222831;
+    font-size: .75rem !important;
+    text-indent: initial;
+    background-color: #CFEDC9;
+    border-radius: 0.3rem;
+    padding: 3px 5px;
+  }
+
+  warning {
+    margin: 2em 0 !important;
+    padding: 1em;
+    display: block;
+    color: #222831;
+    font-size: .75rem !important;
+    text-indent: initial;
+    background-color: #FFF9BD;
+    border-radius: 0.3rem;
+    padding: 3px 5px;
+  }
+
+  danger {
+    margin: 2em 0 !important;
+    padding: 1em;
+    display: block;
+    color: #222831;
+    font-size: .75rem !important;
+    text-indent: initial;
+    background-color: #F3C1BF;
+    border-radius: 0.3rem;
+    padding: 3px 5px;
+  }
+
+  info {
+    margin: 2em 0 !important;
+    padding: 1em;
+    display: block;
+    color: #222831;
+    font-size: .75rem !important;
+    text-indent: initial;
+    background-color: #AAE0DB;
+    border-radius: 0.3rem;
+    padding: 3px 5px;
+  }
+}
+
