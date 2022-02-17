@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기"
+title: "[Java] JVM 구조와 작동"
+tags: java live-study jvm 
 image: 
     path: /assets/img/live-study/live-study1-cover.png
 accent_color: '#344CB7'
@@ -11,9 +12,10 @@ categories:
     - java-live-study
 related_posts:    
     - /study/java-live-study/2022-02-13-whiteship-live-study2/
-    - /study/java-live-study/2022-02-13-whiteship-live-study3/
+    - /study/java-live-study/2022-02-15-whiteship-live-study3/
 
 ---
+### [Java] JVM 구조와 작동
 
 ##### JVM이란 무엇인가
 운영체제는 자바 프로그램을 바로 실행할 수 없는데, 그 이유는 자바 프로그램은 완전한 기계어가 아닌, 중간단계의 바이트 코드이기 때문에 이것을 해석하고 실행할 수 있는 가상의 운영체제가 필요하다. 이것이 **자바 가상 기계(JVM : Java Virtual Machine)**이다.   
