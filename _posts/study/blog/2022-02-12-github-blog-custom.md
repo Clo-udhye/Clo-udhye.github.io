@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "블로그 테마 커스텀"
+tags: gitblog theme custom
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

@@ -2,7 +2,7 @@
 layout: post
 title: "post 커스텀"
 subtitle: post custom
-tags: post about custom
+tags: gitblog post about custom
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

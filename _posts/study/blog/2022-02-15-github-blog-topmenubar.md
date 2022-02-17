@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "탑메뉴바와 검색기능 추가"
+tags: gitblog top-menu-bar search
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

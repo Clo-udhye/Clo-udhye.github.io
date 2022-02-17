@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "footer 설정하기"
+tags: gitblog footer custom
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

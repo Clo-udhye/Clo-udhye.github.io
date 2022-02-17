@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "블로그 시작하기"
+tags: gitblog Jekyll
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

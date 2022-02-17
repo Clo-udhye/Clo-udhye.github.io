@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "favicon 만들고 적용하기"
+tags: gitblog favicon
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'

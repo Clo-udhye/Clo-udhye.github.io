@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "사이드바 메뉴 설정"
+tags: gitblog sidebar menu custom
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'
