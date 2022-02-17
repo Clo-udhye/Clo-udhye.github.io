@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법"
+title: "[Java] 변수와 타입"
+tags: java live-study variable literal type
 image: 
     path: /assets/img/live-study/live-study2-cover.png
 accent_color: '#00B8A9'
@@ -11,9 +12,9 @@ categories:
     - java-live-study
 related_posts:    
     - /study/java-live-study/2022-02-06-whiteship-live-study1/ 
-    - /study/java-live-study/2022-02-13-whiteship-live-study3/   
+    - /study/java-live-study/2022-02-15-whiteship-live-study3/   
 ---
-### 자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법
+### [Java] 변수와 타입
 
 ### 변수란?
 **변수(Variable) : 하나의 값을 저장할 수 있는 메모리 공간**   
