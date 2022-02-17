@@ -19,7 +19,7 @@ hide_description: true
 
 > 연락처: clo_udhye@naver.com
 
-> Github : [https://github.com/Clo-udhye](https://github.com/Clo-udhye) 
+> Github : [https://github.com/dev-dahye](https://github.com/dev-dahye) 
 
 ## Education
 ---
@@ -34,7 +34,7 @@ hide_description: true
 ## Awards
 ---
 [WIZNETIAN IoT Design Contest(주최:(주)위즈네트) 2017](https://www.wiznet.io/)
-- 우수상 - [아두이노를 이용한 스마트 도어락 시스템](https://github.com/Clo-udhye/WIZNETIAN-IoT-Contest)
+- 우수상 - [아두이노를 이용한 스마트 도어락 시스템](https://github.com/dev-dahye/WIZNETIAN-IoT-Contest)
 
 ## Skills and Certificate
 ---

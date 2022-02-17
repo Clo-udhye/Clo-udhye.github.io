@@ -332,13 +332,13 @@ _   underscore
 - 외부 링크   
 \[링크 키워드\]\(링크 주소\)
 ~~~
-예 : [내 블로그](https://clo-udhye.github.io/about)
+예 : [내 블로그](https://dev-dahye.github.io/about)
 ~~~
 
 <details>
 <summary><b>🔍결과</b></summary>
 <div markdown="1">
-[내 블로그](https://clo-udhye.github.io/about)
+[내 블로그](https://dev-dahye.github.io/about)
 </div>
 </details> 
 
@@ -346,13 +346,13 @@ _   underscore
 - 자동 링크  
 
 ~~~
-예 : <https://clo-udhye.github.io/about>
+예 : <https://dev-dahye.github.io/about>
 ~~~
 
 <details>
 <summary><b>🔍결과</b></summary>
 <div markdown="1">
-<https://clo-udhye.github.io/about> 
+<https://dev-dahye.github.io/about> 
 </div>
 </details>   
 

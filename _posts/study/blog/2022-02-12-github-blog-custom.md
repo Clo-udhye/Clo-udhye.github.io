@@ -47,7 +47,7 @@ picture:
 ```yml
 social:
     #twitter:         <username>
-    github:          Clo-udhye
+    github:          dev-dahye
     email:           clo_udhye@naver.com
 ```
 > ![다른저자](/assets/img/blog/authors1.png){:width="50%" height="50%"}   
