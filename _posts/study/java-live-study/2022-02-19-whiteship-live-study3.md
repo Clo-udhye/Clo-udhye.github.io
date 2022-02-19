@@ -621,7 +621,7 @@ boolean b4 = str1.equals(str3)  //true
 |`0`|   |`0`|`0`||
 {:.scroll-table}
 
-- **[NOT(논리부정)](/study/java-live-study/2022-02-19-whiteship-live-study3/#34-비트-반전-연산자)**  
+- **NOT(논리부정)**  
 
 |연산식||결과|설명|
 |---:|---|---|---|
