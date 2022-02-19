@@ -819,9 +819,7 @@ int numLetters = switch (day) {
     case "WEDNESDAY"                    -> 8;
     default -> throw new IllegalStateException("Invalid day: " + day);
 };
-```
 
-```java
 //yield로 return 가능
 String day = "SOMEDAY";
 int numLetters = switch (day) {
