@@ -12,10 +12,12 @@ categories:
     - java-live-study
 related_posts:    
     - /study/java-live-study/2022-02-06-whiteship-live-study1/  
-    - /study/java-live-study/2022-02-13-whiteship-live-study2/    
+    - /study/java-live-study/2022-02-13-whiteship-live-study2/
 ---
 
-### [Java] 연산자  
+### [Java Live Study] 3. 연산자  
+* 
+{:toc}
 
 ## 1. 연산자와 연산식
 - **연산(operations)** : 프로그램에서 데이터를 처리해서 결과를 산출하는 것  
@@ -86,6 +88,7 @@ boolean result = (x + y) < 5
 |조건(`?:`)|➡️|⬇️|
 |대입(`=`,`+=`,`-=`,`*=`,`/=`,`%=`<br>,`&=`,`^=`,`!=`,`<<=`,`>>=`,`>>>=`)|⬅️|낮음|
 {:.scroll-table}
+
 예제)   
 >   ```java
     x > 0 && y < 0
@@ -155,7 +158,7 @@ int result1 = +x;   //100
 int result2 = -x;   //-100
 ```
 
-#### 부호연산자의 산출타입은 `int`타입이다.   
+- **부호연산자의 산출타입은 `int`타입이다.**   
 
 ```java
 short s =100;
@@ -174,7 +177,7 @@ int result = -s;
 |피연산자|`--`|다른 연산을 수행한 후에 피연산자의 값을 1 감소시킴|
 {:.scroll-table}
 
-#### 연산식에서 증감연산자만 있는 경우에는 증감연산자가 변수 앞 또는 뒤 어디든 위치해도 상관없다.
+- **연산식에서 증감연산자만 있는 경우에는 증감연산자가 변수 앞 또는 뒤 어디든 위치해도 상관없다.**   
 
 ```java
 ++i;        // 둘 다 i = i+1;
@@ -185,7 +188,7 @@ i++;
 --i;        // 둘 다 i = i-1;
 i--;
 ```
-#### 다른 연산자와 함께 사용하는 연산식에서는 증감 연산자의 위치에 따라 연산식의 결과가 다르다.
+- **다른 연산자와 함께 사용하는 연산식에서는 증감 연산자의 위치에 따라 연산식의 결과가 다르다.**   
 
 ```java
 int x = 10;
@@ -775,7 +778,89 @@ System.out.println(str instanceof String);      //false
 (int a) -> {System.out.println(a);}
 ```
 
-Refernce
+## 7. `switch` 연산자
+Switch 연산자는 기존에 존재하던 switch 조건문과 문법이 유사하며, Java 12부터 사용이 가능하다.   
+`:` 대신 `->`를 사용할 수 있다. (statement가 여러개면 {}와 같이 사용한다.)
+break가 필요 없다. yield를 사용해 값을 대입한다.
+
+- 기존의 switch 조건문
+```java
+int numLetters = 0;
+String day = "MONDAY";
+switch (day) {
+    case "MONDAY":
+    case "FRIDAY":
+    case "SUNDAY":
+        numLetters = 6;
+        break;
+    case "TUESDAY":
+        numLetters = 7;
+        break;
+    case "THURSDAY":
+    case "SATURDAY":
+        numLetters = 8;
+        break;
+    case "WEDNESDAY":
+        numLetters = 9;
+        break;
+    default:
+        throw new IllegalStateException("Invalid day: " + day);
+}
+System.out.println(numLetters);
+```
+
+- switch 연산자
+```java
+String day = "MONDAY";
+int numLetters = switch (day) {
+    case "MONDAY", "FRIDAY", "SUNDAY"   -> 6;
+    case "TUESDAY"                      -> 7;
+    case "THURSDAY", "SATURDAY"         -> 8;
+    case "WEDNESDAY"                    -> 8;
+    default -> throw new IllegalStateException("Invalid day: " + day);
+};
+```
+
+```java
+//yield로 return 가능
+String day = "SOMEDAY";
+int numLetters = switch (day) {
+    case "MONDAY", "FRIDAY", "SUNDAY"   -> 6;
+    case "TUESDAY"                      -> 7;
+    case "THURSDAY", "SATURDAY"         -> 8;
+    case "WEDNESDAY"                    -> 8;
+    default -> {
+        int result = day.toString().length();
+        yield result;
+    }
+};
+```
+
+<br>
+- - -
+
+## 학습목표 바로가기
+- [산술 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#41-산술-연산자--)
+- 비트 연산자
+    - [비트 반전 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#34-비트-반전-연산자)
+    - [비트 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#45-비트-연산자)
+- [관계 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#43-비교-연산자)
+- 논리 연산자
+    - [논리 부정 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#33-논리-부정-연산자)
+    - [논리 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#44-논리-연산자)
+- [instanceof](/study/java-live-study/2022-02-19-whiteship-live-study3/#6-객체비교연산자instanceof)
+- [assignment(=) operator](/study/java-live-study/2022-02-19-whiteship-live-study3/#46-대입-연산자-)
+- [화살표(->) 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#7-화살표-연산자-)
+- [3항 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#5-삼항-연산자)
+- [연산자 우선 순위](/study/java-live-study/2022-02-19-whiteship-live-study3/#2-연산의-방향의-우선순위)
+- [(optional) Java 13. switch 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#7-switch-연산자)
+
+
+<br>
+- - -
+
+## Refernce 
 - [이것이 자바다 - 신용권의 Java 프로그래밍 완전 정복](http://www.yes24.com/Product/Goods/15651484)   
 - <https://velog.io/@geesuee/JAVA-%EA%B0%9D%EC%B2%B4-%ED%83%80%EC%9E%85-%ED%99%95%EC%9D%B8-instanceof>   
-- <https://catch-me-java.tistory.com/31>
+- <https://ugo04.tistory.com/37>
+- <https://dev-ujin.github.io/java-live-study/3-operator#7-%ED%99%94%EC%82%B4%ED%91%9C-%EC%97%B0%EC%82%B0%EC%9E%90arrow-operator>
