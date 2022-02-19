@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] favicon 만들고 적용하기
+# [Blog] favicon 만들고 적용하기
 * 
 {:toc}
 

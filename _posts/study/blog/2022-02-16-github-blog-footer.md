@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] footer 설정하기
+# [Blog] footer 설정하기
 * 
 {:toc}
 

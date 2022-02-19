@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] 슬라이드 게시글 만들기
+# [Blog] 슬라이드 게시글 만들기
 * 
 {:toc}
 

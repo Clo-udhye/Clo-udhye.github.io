@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] post에 youtube 영상넣기
+# [Blog] post에 youtube 영상넣기
 * 
 {:toc}
 

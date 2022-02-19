@@ -13,7 +13,7 @@ categories:
 related_posts:    
     - /study/blog/2022-02-15-github-blog-topmenubar/  
 ---
-# [gitBlog] 반응형 블로그 - 검색창
+# [Blog] 반응형 블로그 - 검색창
 * 
 {:toc}
 

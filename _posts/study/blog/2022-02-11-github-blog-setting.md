@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] 블로그 시작하기
+# [Blog] 블로그 시작하기
 * 
 {:toc}
 

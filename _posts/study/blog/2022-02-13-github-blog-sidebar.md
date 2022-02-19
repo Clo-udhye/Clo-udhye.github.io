@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] 사이드바 메뉴 설정
+# [Blog] 사이드바 메뉴 설정
 * 
 {:toc}
 

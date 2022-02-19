@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] 블로그 테마 커스텀
+# [Blog] 블로그 테마 커스텀
 * 
 {:toc}
 

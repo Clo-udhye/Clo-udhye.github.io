@@ -14,7 +14,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] post 커스텀
+# [Blog] post 커스텀
 * 
 {:toc}
 

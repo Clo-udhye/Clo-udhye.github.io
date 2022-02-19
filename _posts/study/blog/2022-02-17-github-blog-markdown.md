@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] post 작성을 위한 Markdown 기초
+# [Blog] post 작성을 위한 Markdown 기초
 * 
 {:toc}
 

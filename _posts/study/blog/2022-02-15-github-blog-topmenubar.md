@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [gitBlog] 탑메뉴바와 검색기능 추가
+# [Blog] 탑메뉴바와 검색기능 추가
 * 
 {:toc}
 
