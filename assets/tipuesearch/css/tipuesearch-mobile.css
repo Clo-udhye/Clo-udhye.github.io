@@ -33,10 +33,7 @@ http://www.tipue.com/search
 
 
 /* search box */
-
-
-#tipue_search_input, #tipue_search_input_menu
-{
+#tipue_search_input{
      color: #333;
      max-width: 150px;
      max-height: 20px;
@@ -50,10 +47,15 @@ http://www.tipue.com/search
 	margin: 0;
      /*text-align: center;*/
 }
+
+#tipue_search_input_menu
+{
+  display: none;
+}
 .tipue_search_icon
 {
-     width: 19px;
-     height: 19px;
+     width: 35px;
+     height: 35px;
      margin-bottom: 1rem;
 }
 
@@ -62,8 +64,9 @@ http://www.tipue.com/search
      float: left;
      padding: 10px 5px 0 0;
      color: #170247;
-     max-height: 20px;
+     max-height: 50px;
 }
+
 .tipue_search_right
 {
      float: left;
