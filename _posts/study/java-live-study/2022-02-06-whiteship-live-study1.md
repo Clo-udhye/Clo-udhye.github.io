@@ -12,7 +12,7 @@ categories:
     - java-live-study
 related_posts:    
     - /study/java-live-study/2022-02-13-whiteship-live-study2/
-    - /study/java-live-study/2022-02-15-whiteship-live-study3/
+    - /study/java-live-study/2022-02-19-whiteship-live-study3/
 
 ---
 ### [Java] JVM 구조와 작동
