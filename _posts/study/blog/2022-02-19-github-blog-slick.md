@@ -26,7 +26,8 @@ related_posts:
 <!--slick-->
 <link rel="stylesheet" type="text/css" href="/assets/css/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="/assets/css/slick/slick-theme.css"/>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- 이부분은 tipuesearch와 버전충돌이 일어나서 제외 시켰다.-->
+<!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
 <script type="text/javascript" src="/assets/css/slick/slick.min.js"></script>
 ```
 
