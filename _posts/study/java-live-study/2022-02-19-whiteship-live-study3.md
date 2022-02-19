@@ -576,7 +576,7 @@ boolean b4 = str1.equals(str3)  //true
 비트 연산자는 데이터를 비트(bit) 단위로 연산한다. 즉 `0`, `1`이 피연산자가 된다. 그렇기 때문에 0과 1로 표현이 가능한 정수 타입만 비트 연산을 할 수 있다. 실수 타입인 `float`와 `double`은 비트연산을 할 수 없다.
 
 ##### 4.5.1 비트 논리 연산자(`&`,`|`,`^`,`~`)
-`&`,`|`,`^`연산자는 피연산자가 `boolean`타입일 경우에는 [일반 논리 연산자](/study/java-live-study/2022-02-15-whiteship-live-study3/#44-%EB%85%BC%EB%A6%AC-%EC%97%B0%EC%82%B0%EC%9E%90)이고, 피연산자가 정수 타입일 경우에는 비트 논리 연산자로 사용된다.
+`&`,`|`,`^`연산자는 피연산자가 `boolean`타입일 경우에는 [일반 논리 연산자](/study/java-live-study/2022-02-19-whiteship-live-study3/#44-%EB%85%BC%EB%A6%AC-%EC%97%B0%EC%82%B0%EC%9E%90)이고, 피연산자가 정수 타입일 경우에는 비트 논리 연산자로 사용된다.
 
 - **AND(논리곱)**   
 
@@ -606,7 +606,7 @@ boolean b4 = str1.equals(str3)  //true
 |`0`|   |`1`|`1`||
 |`0`|   |`0`|`0`||
 
-- **[NOT(논리부정)](/study/java-live-study/2022-02-15-whiteship-live-study3/#34-비트-반전-연산자)**  
+- **[NOT(논리부정)](/study/java-live-study/2022-02-19-whiteship-live-study3/#34-비트-반전-연산자)**  
 
 |연산식||결과|설명|
 |---|---|---|---|
