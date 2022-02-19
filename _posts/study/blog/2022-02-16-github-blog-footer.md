@@ -14,9 +14,12 @@ related_posts:
     -    
 ---
 # [gitBlog] footer 설정하기
+* 
+{:toc}
 
-## footer를 설정 해보자
-#### 1. _includes > body 에 footer.html 추가
+## footer 설정
+#### 1. html 추가
+**_includes > body** 에 footer.html 추가
 
 ```html
 {% if site.copyright.size > 0 or site.legal.size > 0 or site.hydejack.advertise %}
@@ -35,5 +38,10 @@ related_posts:
 footer 설정 완료!   
 ![footer](/assets/img/blog/footer1.png){:width="80%" height="80%"}   
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

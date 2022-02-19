@@ -11,9 +11,11 @@ categories:
     - study
     - blog
 related_posts:    
-    -    
+    - /study/blog/2022-02-15-github-blog-topmenubar/  
 ---
 # [gitBlog] 반응형 블로그 - 검색창
+* 
+{:toc}
 
 ## 검색창
 모바일 화면에서 탑메뉴바의 검색창이 이상하게 보이는 오류를 발견했다.   
@@ -180,7 +182,7 @@ related_posts:
 
 - - -
 
-### Refernce 
+## Refernce 
 - <http://www.tcpschool.com/html-tags/link>
 - <https://jellybrown.tistory.com/40>
 - <https://meaningone.tistory.com/115>

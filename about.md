@@ -19,7 +19,7 @@ hide_description: true
 
 > 연락처: clo_udhye@naver.com
 
-> Github : [https://github.com/dev-dahye](https://github.com/dev-dahye) 
+> Github : <https://github.com/dev-dahye>
 
 ## Education
 ---

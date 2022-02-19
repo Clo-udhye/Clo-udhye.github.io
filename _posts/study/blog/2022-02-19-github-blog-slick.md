@@ -14,7 +14,10 @@ related_posts:
     -    
 ---
 # [gitBlog] 슬라이드 게시글 만들기
+* 
+{:toc}
 
+## 슬라이드 게시글 만들기
 1. <https://kenwheeler.github.io/slick/> 접속해서 `get it now` -> `download now`, 압축풀기   
 2. 블로그 디렉토리의 assets폴더에 css 폴더를 만들고 다운로드된 폴더안의 slick폴더를 넣는다.   
 ![다운로드된 폴더](/assets/img/blog/slick1.png){:width="50%" height="50%"}   
@@ -85,7 +88,7 @@ related_posts:
     });
 </script>
 
-> #### 왼쪽,오른쪽 슬라이드 버튼 커스텀
+> #### 슬라이드 버튼 커스텀
  <a href="/assets/css/slick/icon.zip" download>🖇️icon.zip</a>    
  왼쪽 오른쪽 버튼 이미지를 assets > css > slick 에 넣는다.
  이미지를 url을 slick-theme.css와 같은 위치에 넣는다.
@@ -101,5 +104,5 @@ related_posts:
 
 - - -
 
-### Refernce 
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

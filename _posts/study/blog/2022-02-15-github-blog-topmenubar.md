@@ -14,9 +14,12 @@ related_posts:
     -    
 ---
 # [gitBlog] 탑메뉴바와 검색기능 추가
+* 
+{:toc}
 
 ## 탑메뉴바 추가
-#### 1. _includes > body 에 menu.html 추가
+#### 1. html 추가
+**_includes > body** 에 menu.html 추가
 
 ```html
 <!--상단메뉴바-->
@@ -48,7 +51,8 @@ related_posts:
 <hr class="sr-only" hidden />
 ```
 
-#### 2. _sass > my-style.scss 아래에 다음코드를 추가
+#### 2. css 추가
+**_sass > my-style.scss** 아래에 다음코드를 추가
 
 ```scss
 // for top-menu
@@ -72,21 +76,25 @@ related_posts:
 #### 3. 탑메뉴바 완성
 ![탑메뉴바](/assets/img/blog/topmenubar1.png){:width="70%" height="70%"}
 
-<hr>
+---
 
 ## 검색기능 추가
 블로그내에 검색기능을 추가하여 원하는 게시물을 빠르게 찾아보자.
-#### 1. 다음 [Github 레파지토리](https://github.com/jekylltools/jekyll-tipue-search)에서 zip 파일을 다운로드 받아 압축을 푼다.
+### 1. 다운로드
+다음 [Github 레파지토리](https://github.com/jekylltools/jekyll-tipue-search)에서 zip 파일을 다운로드 받아 압축을 푼다.   
 
-#### 2. **search.html**을 gitBlog폴더 root directory에 붙여넣는다.    
+### 2. 검색페이지
+**search.html**을 gitBlog폴더 root directory에 붙여넣는다.    
 ![download/search.html](/assets/img/blog/search1.png){:width="35%" height="35%"}➡️
 ![gitBlog/search.html](/assets/img/blog/search2.png){:width="40%" height="40%"}
  
-#### 3. 다운로드 폴더의 /assets/tipuesearch를 gitBlog/assets/에 붙여넣는다.
+### 3. css 추가
+다운로드 폴더의 /assets/tipuesearch를 gitBlog/assets/에 붙여넣는다.
 ![download/assets/tipuesearch](/assets/img/blog/search3.png){:width="40%" height="40%"}➡️
 ![gitBlog/assets/tipuesearch](/assets/img/blog/search4.png){:width="40%" height="40%"}
 
-#### 4. **_config.yml**에 다음 코드를 추가한다.   
+### 4. 검색 설정
+**_config.yml**에 가장 밑에 추가   
 ```yaml
 tipue_search:
   include:
@@ -100,7 +108,8 @@ tipue_search:
 include 부분의 pages: false의 설정은 pages 레이아웃에 해당하는 일반 html페이지는 검색하지 않겠다는 것을 의미한다.(포스트 내용 검색에 집중하기 위함)
 exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 제외하겠다는 것을 의미한다.   
 
-#### 5. _includes > body > menu.html 상단메뉴 카테고리들 밑에 아래코드를 추가한다.   
+### 5. html 추가
+**_includes > body > menu.html** `<!--상단메뉴 카테고리들-->` 밑에 추가   
 
 ```html
 <!--검색 tipuesearch -->
@@ -117,7 +126,8 @@ exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 �
 </div>
 ```
 
-#### 6. include > my-head.html 가장 아래에 다음의 코드를 추가한다.   
+### 6. css 적용
+**include > my-head.html** 가장 밑에 추가     
 
 ```html
 <!-- tipuesearch -->
@@ -128,11 +138,11 @@ exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 �
 <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
 ```
 
-#### 7. 서버를 시작하면 검색창 생성되었다!   
+### 7. 검색창 생성   
 ![검색창](/assets/img/blog/search5.png){:width="90%" height="90%"}
 
-#### 8. 검색창 꾸미기
-- _sass>my-style.scss 에 다음 코드 추가, 탑메뉴바가 너무 넓어서 높이를 줄이자.
+### 8. 검색창 꾸미기
+- **_sass>my-style.scss** 에 다음 코드 추가, 탑메뉴바가 너무 넓어서 높이를 줄이자.
 
 ```css
 .nav-btn-bar{
@@ -140,7 +150,7 @@ exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 �
 }
 ```
 
-- assets>tipuesearch > css > tipuesearch.css #tipue_search_input에서 다음과 같이 수정
+- **assets>tipuesearch > css > tipuesearch.css**의 #tipue_search_input에서 다음과 같이 수정
 
 ```css
 #tipue_search_input
@@ -177,5 +187,10 @@ exclude 부분의 search.html, index.html, tags.html 페이지는 검색에서 �
 }
 ```
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

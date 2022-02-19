@@ -14,8 +14,11 @@ related_posts:
     -    
 ---
 # [gitBlog] 블로그 테마 커스텀
+* 
+{:toc}
 
-### _data > authors.yml
+## 저자 설정
+**_data > authors.yml**   
 authors.yml의 정보로 게시물을 작성할 때 게시물 마지막에 누가 썼는지 저자를 간단히 소개해준다.
 
 - 이름, 이메일, 소개글을 작성해주자   
@@ -53,10 +56,12 @@ social:
 > ![다른저자](/assets/img/blog/authors1.png){:width="50%" height="50%"}   
  저자를 추가해서 여러 작성자가 블로그를 관리할수있다. 
 
-### _data > variables.yml 
+## 변수 설정
+**_data > variables.yml**   
 빠르고 간단하게 foot의 font 크기나 두께, line 높이, 게시물 넓이와 sidebar 넓이 등을 수정할 수 있다.
 
-### _config.yml
+## 블로그 설정
+**_config.yml**   
 전체적인 블로그 설정을 할 수 있다. 
 ```yml
 lang:                  ko-KR, en-US         # 언어
@@ -82,5 +87,10 @@ author:
  ```
  ![긴제목](/assets/img/blog/config3.png){:width="50%" height="50%"}  
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

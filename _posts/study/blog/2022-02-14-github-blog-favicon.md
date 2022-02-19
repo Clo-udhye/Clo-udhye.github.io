@@ -14,11 +14,14 @@ related_posts:
     -    
 ---
 # [gitBlog] favicon 만들고 적용하기
+* 
+{:toc}
+
 ## favicon 
 Favicon이란 Favorite과 Icon의 합성어로 웹 브라우저의 즐겨찾기나 주소창에 뜨는 웹사이트 아이콘
 
 - 다음 웹사이트에 접속해서 사진을 favicon으로 만들 사진을 선택하고 만들기   
-[https://www.favicon-generator.org/](https://www.favicon-generator.org/)
+<https://www.favicon-generator.org/>
 ![favicon-generator](/assets/img/blog/favicon1.png){:width="70%" height="70%"}   
 
 - favicon 다운로드하기
@@ -39,5 +42,10 @@ assets폴더에 icons폴더를 만들고 `favicon.ico`파일을 옮겨주자.
 - favicon 적용 완료~~   
 ![favicon](/assets/img/blog/favicon4.png){:width="70%" height="70%"}   
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

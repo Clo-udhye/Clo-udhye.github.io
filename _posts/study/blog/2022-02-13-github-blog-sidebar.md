@@ -14,8 +14,11 @@ related_posts:
     -    
 ---
 # [gitBlog] 사이드바 메뉴 설정
+* 
+{:toc}
 
-## _config.yml의 menu부분 수정
+## 사이드바 메뉴 설정
+**_config.yml**의 menu부분 수정   
 ```yml
 menu:
   - title:             About
@@ -29,7 +32,10 @@ menu:
 > 사이드바에 메뉴만 추가된 상태라 404가 뜬다.
 
 
-## _featured_categories에 .md 파일 생성
+## 카테고리 메뉴 생성
+**_featured_categories**에 .md 파일 생성  
+
+
 ![메뉴 변경](/assets/img/blog/sidebar2.png){:width="50%" height="50%"}   
 _featured_categories > example1.md
 
@@ -42,10 +48,10 @@ description: >
 sitemap: false
 ```
 ## 각 메뉴에 포스트 넣기
-블로그 디렉토리안에 `_posts`디렉토리를 만들고 다음과 같이 폴더들을 만든다.   
+블로그 디렉토리안에 _posts 디렉토리를 만들고 다음과 같이 폴더들을 만든다.   
 ![메뉴 변경](/assets/img/blog/sidebar4.png){:width="50%" height="50%"}   
 
-`example/_posts` 안의 예시 포스트들을 각각 example1, example2에 넣고 `example` 폴더는 삭제한다.
+example/_posts 안의 예시 포스트들을 각각 example1, example2에 넣고 example 폴더는 삭제한다.
 ![메뉴 변경](/assets/img/blog/sidebar5.png){:width="50%" height="50%"}   
 
 각 포스트 상단에 다음의 카테고리를 추가해주면  
@@ -57,7 +63,7 @@ categories:
 ![메뉴 변경](/assets/img/blog/sidebar6.png){:width="80%" height="80%"}   
 
 ## 서브메뉴 만들기
-- _config.yml 에서 menu부분에 다음과 같이 추가하기    
+- **_config.yml** 에서 menu부분에 다음과 같이 추가하기    
 
 ```yml
 menu:
@@ -75,7 +81,7 @@ menu:
       -title:         Test2
       -url:           /test2/
 ```
-- _featured_categories 디렉토리에 다음과 같이 subcategory폴더, subcategory.md, test1.md, test2.md 파일들을 생성한다.   
+- **_featured_categories** 디렉토리에 다음과 같이 subcategory폴더, subcategory.md, test1.md, test2.md 파일들을 생성한다.   
 ![메뉴 변경](/assets/img/blog/sidebar7.png){:width="50%" height="50%"}   
 
 - 각 .md파일들을 다음과 같이 만들어준다.
@@ -141,6 +147,7 @@ categories:
 _includes > body 폴더와 sidebar-sticky.html 파일을 만들어 다음을 붙여넣는다.
 
 ```html
+{%raw%}
 <div class="sidebar-sticky">
     <div class="sidebar-about" style="margin-bottom: 10px;">
 
@@ -177,11 +184,17 @@ _includes > body 폴더와 sidebar-sticky.html 파일을 만들어 다음을 붙
     </div>
 
 </div>
+{%endraw%}
 ```
 
 각 부분의 순서나 위치를 변경해서 커스텀 할 수 있다.
 
 
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "블로그 시작하기"
-tags: gitblog Jekyll
+tags: gitblog Jekyll Hydejack
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'
@@ -14,37 +14,48 @@ related_posts:
     -    
 ---
 # [gitBlog] 블로그 시작하기
-### Jekyll
+* 
+{:toc}
+
+## Jekyll
 Jekyll은 블로그 템플릿을 제공받아 약간의 커스텀만 하고 포스팅하는데 집중할 수 있게 해주는 블로그 생성기이다.
 Jekyll 테마를 통해 블로그 테마를 다운로드하고 이미지와 색, 내비게이션 바 등을 수정하고 게시물을 업로드하고 Jekyll 을 통해서 컴파일을 하여 내가 운영할 수 있는 블로그 코드 파일, HTML, CSS, JS 파일을 얻는다.
 
 *이 파일들을 자신의 레파지토리에 넣으면 블로그가 만들어진다.*
 
-##### Jekyll의 특징
+### Jekyll의 특징
 - Static website 를 만들어주는 도구
 - Markdown → HTML 지원
 - 수 많은 무료테마 존재
 - GitHub Pages 가 추천하는 도구
 
-### 지킬 무료, 유료 테마들을 다운 받을 수 있는 사이트
-
--  [http://jekyllthemes.org/](http://jekyllthemes.org/)
--  [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
--  [https://jamstackthemes.dev/ssg/jekyll/](https://jamstackthemes.dev/ssg/jekyll/)
-- [https://jekyll-themes.com/free/](https://jekyll-themes.com/free/)
+### 테마 사이트
+지킬 무료, 유료 테마들을 다운 받을 수 있는 사이트   
+- <http://jekyllthemes.org/>
+- <https://jekyllthemes.io/free>
+- <https://jamstackthemes.dev/ssg/jekyll/>
+- <https://jekyll-themes.com/free/>
 
 > 직접 테마를 만들 수도 있다. 테마 작성 관련 튜토리얼은 다음 페이지를 참조하자.   
- [http://jekyllrb-ko.github.io/docs/step-by-step/01-setup/](http://jekyllrb-ko.github.io/docs/step-by-step/01-setup/)
+ <http://jekyllrb-ko.github.io/docs/step-by-step/01-setup/>
  
 마음에 드는 테마를 찾았다면, 해당 테마 페이지에 있는 다운로드 또는 github clone 으로 파일들을 다운 받자!
 
-### Hydejack 테마로 시작하기
-[http://themes.jekyllrc.org/hydejack/](http://themes.jekyllrc.org/hydejack/)에서 테마를 다운받고 원하는 위치에 압축을 풀자.
+
+---
+
+
+## Hydejack 테마로 시작하기
+<http://themes.jekyllrc.org/hydejack/>에서 테마를 다운받고 원하는 위치에 압축을 풀자.
 ![Hidejack Theme설치](/assets/img/blog/setting1-1.png){:width="80%" height="80%"}
 ![Hidejack Theme설치](/assets/img/blog/setting1-2.png){:width="80%" height="80%"}
 ![Hidejack Theme설치](/assets/img/blog/setting1-3.png){:width="80%" height="50%"}
 
-### Ruby와 Jekyll 설치하기
+
+---
+
+
+## Ruby와 Jekyll 설치하기
 다운받은 파일을 수정하기 전에 Jekyll을 설치해야한다. 우리가 다운 받은 파일은 Jekyll기반으로 개발이 되어있기 때문에 Jekyll을 설치하지 않을 경우 우리가 원하는 방식으로 테마를 수정할 수가 없다.
 
 Text로 우리가 작성한 Markdown, _config.yml등의 파일들은 Jekyll을 통해서 _site폴더내의 산출물로 변환되고 해당 산출물이 Github를 통해 WEB에서 실행되는 형태라고 할 수 있다.
@@ -55,7 +66,7 @@ jekyll 테마를 설치하고 수정, 관리하기 위해서는, 먼저 ruby 개
 Jekyll이 Ruby로 만들어졌기 때문에 Ruby를 설치 해줘야한다. 윈도우 OS의 경우 Ruby와 개발툴킷을 별도로 설치해줘야 하므로 Ruby Install 페이지에 접속하여 아래와 같이 추천 다운로드 버전을 다운 받으면 된다.
 
 다음 페이지에서 루비를 다운받고 설치 하자.   
-[https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
+<https://rubyinstaller.org/downloads/>
 ![Ruby설치](/assets/img/blog/setting1.png){:width="70%" height="70%"}
 > 어떤 버전으로 설치할지 고민된다면 Ruby가 추천해주는 것으로 설치하자.   
 
@@ -103,5 +114,10 @@ C:\blog> bundle exec jekyll serve
 
 
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

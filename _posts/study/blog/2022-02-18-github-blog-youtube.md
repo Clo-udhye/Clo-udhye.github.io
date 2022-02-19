@@ -14,8 +14,11 @@ related_posts:
     -    
 ---
 # [gitBlog] post에 youtube 영상넣기
+* 
+{:toc}
 
-#### _includes > youtubePlayer.html 생성후 다음 코드 삽입
+## youtubePlayer.html 추가
+**_includes > youtubePlayer.html** 생성후 다음 코드 삽입
 
 ```html
 <style>
@@ -48,5 +51,5 @@ youtube 영상넣기 성공~~!
 
 - - -
 
-**Refernce**   
+## Refernce  
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

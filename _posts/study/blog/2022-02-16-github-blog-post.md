@@ -15,9 +15,12 @@ related_posts:
     -    
 ---
 # [gitBlog] post 커스텀
+* 
+{:toc}
 
-## post를 커스텀해보자
-#### _includes > conponents 디렉토리 생성후 post.html 추가
+## post 커스텀
+### post.html
+**_includes > conponents** 디렉토리 생성후 post.html 추가
 
 ```html
 {% raw %}
@@ -91,7 +94,8 @@ related_posts:
 </article>
 {% endraw %}
 ```
-##### _includes > conponents에 tag-list.html 추가 
+#### tag-list.html 
+**_includes > conponents**에 tag-list.html 추가 
 
 ```html
 {% raw %}
@@ -129,7 +133,7 @@ related_posts:
 ```
 
 
-- **포스트의 설정**
+### 포스트 설정과 결과
 
 ```yml
 layout: post
@@ -140,8 +144,11 @@ tags: post custom
 
 ![포스트설정](/assets/img/blog/post1.png){:width="60%" height="60%"}
 
-## about을 커스텀해보자
-#### _includes > conponents에 about.html 추가
+---
+
+## about 커스텀
+### about.html
+**_includes > conponents**에 about.html 추가   
 
 ```html
 {% raw %}
@@ -156,7 +163,8 @@ tags: post custom
 {% endraw %}
 ```
 
-####  _includes > conponents에 author.html 추가
+### author.html
+**_includes > conponents**에 author.html 추가
 ```html
 {% raw %}
 {% assign plugins = site.plugins | default:site.gems %}
@@ -189,7 +197,8 @@ tags: post custom
 {% endraw %}
 ```
 
-##### _includes > conponents에 hy-img.html 추가
+#### hy-img.html
+**_includes > conponents**에 hy-img.html 추가
 
 ```html
 {% raw %}
@@ -227,7 +236,7 @@ tags: post custom
 ![포스트설정](/assets/img/blog/post2.png){:width="70%" height="70%"}
 
 
-### 작성자 이미지 커스텀 
+## 작성자 이미지 커스텀 
 브라우저에서 `f12`를 눌러 DevTools를 열고 select element 기능으로 프로필 사진 선택하자
 ![작성자이미지](/assets/img/blog/post3.png){:width="100%" height="100%"}
 
@@ -257,5 +266,10 @@ tags: post custom
 ![작성자이미지](/assets/img/blog/post4.png){:width="100%" height="100%"}
 
 
-Refernce
+<br>
+<br>
+
+- - -
+
+## Refernce 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

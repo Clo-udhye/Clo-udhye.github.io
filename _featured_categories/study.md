@@ -6,6 +6,7 @@ menu: true
 submenu: true
 description: >
     공부
+sitemap: true
 ---
 
 # Study
