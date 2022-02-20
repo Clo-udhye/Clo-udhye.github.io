@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Slick을 이용한 슬라이드 게시글 만들기"
+title: "Slick 슬라이드 게시글 만들기"
 tags: gitblog post slide slick
 image: 
     path: /assets/img/blog/gitBlog.png
@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [Blog] Slick을 이용한 슬라이드 게시글 만들기
+# [Blog] Slick 슬라이드 게시글 만들기
 * 
 {:toc}
 

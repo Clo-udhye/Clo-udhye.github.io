@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Utterances를 이용한 댓글 기능 추가"
+title: "Utterances 댓글 기능 추가"
 tags: gitblog comment utterances
 image: 
     path: /assets/img/blog/gitBlog.png
@@ -13,7 +13,7 @@ categories:
 related_posts:    
     -    
 ---
-# [Blog] Utterances를 이용한 댓글 기능 추가
+# [Blog] Utterances 댓글 기능 추가
 * 
 {:toc}
 

@@ -809,7 +809,8 @@ switch (day) {
 System.out.println(numLetters);
 ```
 
-- switch 연산자
+- switch 연산자   
+
 ```java
 String day = "MONDAY";
 int numLetters = switch (day) {
