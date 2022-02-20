@@ -76,10 +76,10 @@ menu:
   - title:             Subcategory
     url:               /subCategory/
     submenu:
-      -title:         Test1
-      -url:           /test1/
-      -title:         Test2
-      -url:           /test2/
+      - title:         Test1
+        url:           /test1/
+      - title:         Test2
+        url:           /test2/
 ```
 - **_featured_categories** 디렉토리에 다음과 같이 subcategory폴더, subcategory.md, test1.md, test2.md 파일들을 생성한다.   
 ![메뉴 변경](/assets/img/blog/sidebar7.png){:width="50%" height="50%"}   
