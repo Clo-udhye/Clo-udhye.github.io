@@ -43,7 +43,7 @@ id는 원하는 영상 url의 `v=` 뒷부분을 넣는다.
 
 
 youtube 영상넣기 성공~~!   
-{% include youtubePlayer.html id="Vhr6U9emEbI" %}
+{% include components/youtubePlayer.html id="Vhr6U9emEbI" %}
 
 
 <br>
