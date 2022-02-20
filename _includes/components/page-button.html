@@ -1,0 +1,23 @@
+<div class="page-control">
+    {% if page.previous.url %}
+    <a class="button" href="{{ page.previous.url }}">
+        <div class="previous-page">
+            <span>이전글</span>
+            <p>{{ page.previous.title }}</p>
+        </div>
+    </a>
+    {% else %}
+    <a style="pointer-events:none; cursor: default;"><div class="previous-page"><span></span><p></p></div></a>
+    {% endif %}
+
+    {% if page.next.url %}
+    <a class="button" href="{{ page.next.url }}">
+        <div class="next-page">
+            <span>다음글</span>
+            <p>{{ page.next.title }}</p>
+        </div>
+    </a>
+    {% else %}
+    <a style="pointer-events:none; cursor: default;"><div class="next-page"><span></span><p></p></div></a>
+    {% endif %}
+</div>
