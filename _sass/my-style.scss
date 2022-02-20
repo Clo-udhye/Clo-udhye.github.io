@@ -189,3 +189,53 @@
   font-weight: 300;
 }
 
+// 메뉴
+.spread-btn{
+  right: 15%;
+  position: absolute;
+  padding: 0;
+  padding-top: 2px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu-wrapper {
+  text-align: left;
+  margin-left: 30%;
+}
+.submenu.menu-wrapper{
+  right: 10%;
+  position: absolute;
+  background-color: rgb(142, 173, 194);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  width: 10rem;
+  z-index: 2;
+  ul{
+    margin: 0;
+    padding: 0 1.25rem;
+  }
+}
+.submenu.menu-wrapper.hide{
+  display: none;
+}
+.submenu {
+  font-size: 15px;
+}
+.sidebar-sticky{
+  --hy-drawer-width: 100%;
+  --hy-drawer-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  --hy-drawer-peek-width: 21rem;
+  cursor: grab;
+  color: rgba(255,255,255,0.75);
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: auto;
+  max-width: 21rem;
+  padding: 1.5rem;
+  contain: layout;
+  opacity: 1;
+}
