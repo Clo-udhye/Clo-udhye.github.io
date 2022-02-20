@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "슬라이드 게시글 만들기"
+title: "Slick을 이용한 슬라이드 게시글 만들기"
 tags: gitblog post slide slick
 image: 
     path: /assets/img/blog/gitBlog.png
 accent_color: '#01ADB5'
 description: >
-    깃허브 블로그 만들기: 슬라이드 게시글 만들기
+    깃허브 블로그 만들기: Slick을 이용한 슬라이드 게시글 만들기
 categories:
     - study
     - blog
 related_posts:    
     -    
 ---
-# [Blog] 슬라이드 게시글 만들기
+# [Blog] Slick을 이용한 슬라이드 게시글 만들기
 * 
 {:toc}
 

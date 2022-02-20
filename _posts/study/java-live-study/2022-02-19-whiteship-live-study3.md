@@ -4,7 +4,7 @@ title: "[Java] 연산자"
 tags: java live-study operator
 image: 
     path: /assets/img/live-study/live-study3-cover.png
-accent_color: '#00B8A9'
+accent_color: '#664B7E'
 description: >
     [dev-ujin✨](https://github.com/dev-ujin)과 함께하는 [live study📝](https://github.com/whiteship/live-study) 3주차
 categories:
