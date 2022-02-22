@@ -239,3 +239,7 @@
   contain: layout;
   opacity: 1;
 }
+
+a.external::after, a::after{
+  display: none !important;
+}
