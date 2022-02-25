@@ -59,7 +59,7 @@ menu:
         url:           /blog/         
       - title:         Algorithm  
         url:           /algorithm/
-      - title:         DataStructure
+      - title:         Data Structure
         url:           /data-structure/
   - title:             Example
     url:               /example/
@@ -88,7 +88,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.1.6
 
 
