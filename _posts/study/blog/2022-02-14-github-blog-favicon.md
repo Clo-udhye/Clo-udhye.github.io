@@ -47,5 +47,5 @@ assets폴더에 icons폴더를 만들고 `favicon.ico`파일을 옮겨주자.
 
 - - -
 
-## Refernce 
+## Reference 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

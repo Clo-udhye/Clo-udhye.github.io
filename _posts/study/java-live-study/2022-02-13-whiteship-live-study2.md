@@ -1028,6 +1028,6 @@ public Class TypeInferenceExample{
 <br>
 - - -
 
-## Refernce 
+## Reference 
 - [이것이 자바다 - 신용권의 Java 프로그래밍 완전 정복](http://www.yes24.com/Product/Goods/15651484)
 - <https://catch-me-java.tistory.com/19>

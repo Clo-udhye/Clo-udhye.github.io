@@ -149,7 +149,7 @@ JIT 컴파일러의 JIT는 Just In Time (제 때) 라는 뜻이며 이는 자바
 
 - - -
 
-## Refernce 
+## Reference 
 - [이것이 자바다 - 신용권의 Java 프로그래밍 완전 정복](http://www.yes24.com/Product/Goods/15651484)
 - <https://tecoble.techcourse.co.kr/post/2021-07-15-jvm-classloader/>
 - <https://tecoble.techcourse.co.kr/post/2021-08-09-jvm-memory/>

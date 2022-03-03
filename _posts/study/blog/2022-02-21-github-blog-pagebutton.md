@@ -149,5 +149,5 @@ layout: base
 
 - - -
 
-## Refernce 
+## Reference 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

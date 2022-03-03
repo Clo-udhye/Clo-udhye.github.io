@@ -858,7 +858,7 @@ int numLetters = switch (day) {
 <br>
 - - -
 
-## Refernce 
+## Reference 
 - [이것이 자바다 - 신용권의 Java 프로그래밍 완전 정복](http://www.yes24.com/Product/Goods/15651484)   
 - <https://velog.io/@geesuee/JAVA-%EA%B0%9D%EC%B2%B4-%ED%83%80%EC%9E%85-%ED%99%95%EC%9D%B8-instanceof>   
 - <https://ugo04.tistory.com/37>

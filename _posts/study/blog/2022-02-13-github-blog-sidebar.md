@@ -196,5 +196,5 @@ _includes > body 폴더와 sidebar-sticky.html 파일을 만들어 다음을 붙
 
 - - -
 
-## Refernce 
+## Reference 
 - [면접관이 좋아하는 Git Portfolio 만들기 (with_GitBlog)](https://projectlion.io/courses/technology/gitblog)

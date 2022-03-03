@@ -182,7 +182,7 @@ related_posts:
 
 - - -
 
-## Refernce 
+## Reference 
 - <http://www.tcpschool.com/html-tags/link>
 - <https://jellybrown.tistory.com/40>
 - <https://meaningone.tistory.com/115>
